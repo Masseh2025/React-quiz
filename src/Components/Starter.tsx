@@ -1,4 +1,5 @@
 import Quizy from "../assets/Quizy.svg";
+
 import Button from "./Button";
 function Starter() {
   return (

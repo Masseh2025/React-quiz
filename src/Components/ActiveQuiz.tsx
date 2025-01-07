@@ -1,5 +1,9 @@
 function ActiveQuiz() {
-  return <div>Quiz</div>;
+  return (
+    <>
+      <p>Hello</p>
+    </>
+  );
 }
 
 export default ActiveQuiz;

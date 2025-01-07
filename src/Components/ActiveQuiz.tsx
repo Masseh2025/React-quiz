@@ -10,7 +10,11 @@ type DataProp = {
   type: string;
 };
 
-function ActiveQuiz() {
+type ActiveQuizProps = {
+  question: number;
+};
+
+function ActiveQuiz({ question }: ActiveQuizProps) {
   const [data, setdata] = useState<DataProp[] | undefined>();
   useEffect(() => {
     async function getData() {
@@ -25,18 +29,16 @@ function ActiveQuiz() {
     }
     getData();
   }, []);
-  return (
-    <div className="flex flex-col max-w-4xl w-full">
-      <img src={Quizy} alt="Quizy logo" className="h-20" />
-      <h1 className="text-base">Question</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur. Tortor elit amet duis maecenas
-        quis elementum vivamus ipsum pretium. Nunc facilisi posuere semper
-        quisque lorem. Nunc aliquet?
-      </p>
-      <ul>{data ? data[0].category : null}</ul>
-    </div>
-  );
+  if (data)
+    return (
+      <div className="flex flex-col">
+        <img src={Quizy} alt="Quizy logo" className="mb-12 h-20" />
+        <p>{data[question].question}</p>
+        <li></li>
+      </div>
+    );
+
+  if (!data) return <p>Sorry there was a error fetching data</p>;
 }
 
 export default ActiveQuiz;

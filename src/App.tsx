@@ -4,8 +4,8 @@ import ActiveQuiz from "./Components/ActiveQuiz";
 
 const initialState = {
   gameMode: "start",
-  question: -1,
-  score: -1,
+  question: 0,
+  score: 0,
 };
 function reducer(state = initialState, action: ActionProps) {
   switch (action.type) {
@@ -48,7 +48,7 @@ export default function App() {
   if (state.gameMode === "active")
     return (
       <main className="h-screen flex justify-center items-center">
-        <ActiveQuiz />
+        <ActiveQuiz question={state.question} />
       </main>
     );
 }

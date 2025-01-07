@@ -1,0 +1,97 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "History",
+      "question": "Who rode on horseback to warn the Minutemen that the British were coming during the U.S. Revolutionary War?",
+      "correct_answer": "Paul Revere",
+      "incorrect_answers": ["Thomas Paine", "Henry Longfellow", "Nathan Hale"]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Entertainment: Books",
+      "question": "What was the first ever entry written for the SCP Foundation collaborative writing project?",
+      "correct_answer": "SCP-173",
+      "incorrect_answers": ["SCP-001", "SCP-999", "SCP-1459"]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "Which Sonic the Hedgehog game introudced Knuckles the Echidna?",
+      "correct_answer": "Sonic the Hedgehog 3",
+      "incorrect_answers": [
+        "Sonic the Hedgehog 2",
+        "Sonic &amp; Knuckles",
+        "Sonic Adventure"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "In &quot;Call of Duty: Black Ops III&quot; Zombies, what does completing all the main easter eggs reward you with?",
+      "correct_answer": "1,000,000 XP",
+      "incorrect_answers": [
+        "Juggernog at the start of each game",
+        "50 Liquid Diviniums",
+        "All three options."
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Celebrities",
+      "question": "Which television show has Dan Gheesling been on?",
+      "correct_answer": "Big Brother",
+      "incorrect_answers": ["Jeopardy", "Survivor", "The Bachelor"]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "History",
+      "question": "Under which name was Rodrigo Borgia made Pope?",
+      "correct_answer": "Alexander VI",
+      "incorrect_answers": ["Rodrigo I", "John Paul II", "Pius VII"]
+    },
+    {
+      "type": "boolean",
+      "difficulty": "easy",
+      "category": "Science: Computers",
+      "question": "&quot;HTML&quot; stands for Hypertext Markup Language.",
+      "correct_answer": "True",
+      "incorrect_answers": ["False"]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Video Games",
+      "question": "What character is NOT apart of the Grand Theft Auto series?",
+      "correct_answer": "Michael Cardenas",
+      "incorrect_answers": ["Packie McReary", "Tommy Vercetti", "Lester Crest"]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "General Knowledge",
+      "question": "What is the average life span of a garden ant?",
+      "correct_answer": "15 years",
+      "incorrect_answers": ["24 hours", "1 week", "3 years"]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Entertainment: Television",
+      "question": "What does Bart sell his soul for in The Simpsons episode &#039;Bart Sells His Soul&#039;?",
+      "correct_answer": "$5",
+      "incorrect_answers": [
+        "A Copy of Bonestorm 2",
+        "$100",
+        "A Giant Gobstopper"
+      ]
+    }
+  ]
+}

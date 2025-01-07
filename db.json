@@ -20,7 +20,7 @@
       "category": "Entertainment: Books",
       "question": "What was the first ever entry written for the SCP Foundation collaborative writing project?",
       "correct_answer": "SCP-173",
-      "answers": ["SCP-001", "SCP-999", "SCP-1459", "SCP-173"]
+      "answers": ["SCP-001", "SCP-173", "SCP-999", "SCP-1459"]
     },
     {
       "type": "multiple",
@@ -31,8 +31,8 @@
       "answers": [
         "Sonic the Hedgehog 2",
         "Sonic &amp; Knuckles",
-        "Sonic Adventure",
-        "Sonic the Hedgehog 3"
+        "Sonic the Hedgehog 3",
+        "Sonic Adventure"
       ]
     },
     {
@@ -44,8 +44,8 @@
       "answers": [
         "Juggernog at the start of each game",
         "50 Liquid Diviniums",
-        "All three options.",
-        "1,000,000 XP"
+        "1,000,000 XP",
+        "All three options."
       ]
     },
     {
@@ -54,7 +54,7 @@
       "category": "Celebrities",
       "question": "Which television show has Dan Gheesling been on?",
       "correct_answer": "Big Brother",
-      "answers": ["Jeopardy", "Survivor", "The Bachelor", "Big Brother"]
+      "answers": ["Big Brother", "Jeopardy", "Survivor", "The Bachelor"]
     },
     {
       "type": "multiple",
@@ -70,7 +70,7 @@
       "category": "Science: Computers",
       "question": "&quot;HTML&quot; stands for Hypertext Markup Language.",
       "correct_answer": "True",
-      "answers": ["False", "True"]
+      "answers": ["True", "False"]
     },
     {
       "type": "multiple",
@@ -80,9 +80,9 @@
       "correct_answer": "Michael Cardenas",
       "answers": [
         "Packie McReary",
+        "Michael Cardenas",
         "Tommy Vercetti",
-        "Lester Crest",
-        "Michael Cardenas"
+        "Lester Crest"
       ]
     },
     {
@@ -91,7 +91,7 @@
       "category": "General Knowledge",
       "question": "What is the average life span of a garden ant?",
       "correct_answer": "15 years",
-      "answers": ["24 hours", "1 week", "3 years", "15 years"]
+      "answers": ["24 hours", "1 week", "15 years", "3 years"]
     },
     {
       "type": "multiple",
@@ -99,7 +99,7 @@
       "category": "Entertainment: Television",
       "question": "What does Bart sell his soul for in The Simpsons episode &#039;Bart Sells His Soul&#039;?",
       "correct_answer": "$5",
-      "answers": ["A Copy of Bonestorm 2", "$100", "A Giant Gobstopper", "$5"]
+      "answers": ["$5", "A Copy of Bonestorm 2", "$100", "A Giant Gobstopper"]
     }
   ]
 }

@@ -21,20 +21,22 @@ function reducer(state = initialState, action: ActionProps) {
         question: state.question + 1,
         score: state.score,
       };
+    case "correctQuestion":
+      return {
+        gameMode: state.gameMode,
+        question: state.question + 1,
+        score: state.score + 1,
+      };
     case "restart":
       return {
         gameMode: (state.gameMode = "start"),
-        question: (state.question = -1),
-        score: (state.score = -1),
+        question: (state.question = 0),
+        score: (state.score = 0),
       };
     default:
       return state;
   }
 }
-
-type ActionProps = {
-  type: "startGame" | "nextQuestion" | "restart";
-};
 
 export default function App() {
   const [state, dispatch] = useReducer(reducer, initialState);
@@ -48,7 +50,13 @@ export default function App() {
   if (state.gameMode === "active")
     return (
       <main className="h-screen flex justify-center items-center">
-        <ActiveQuiz question={state.question} />
+        <ActiveQuiz
+          question={state.question}
+          nextQuestion={() => dispatch({ type: "nextQuestion" })}
+          correctQuestion={() => dispatch({ type: "correctQuestion" })}
+          restart={() => dispatch({ type: "restart" })}
+          score={state.score}
+        />
       </main>
     );
 }

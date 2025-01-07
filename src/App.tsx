@@ -42,8 +42,7 @@ export default function App() {
   if (state.gameMode === "start")
     return (
       <main className="h-screen flex justify-center items-center">
-        <button onClick={() => dispatch({ type: "startGame" })}>start</button>
-        <Starter />
+        <Starter event={() => dispatch({ type: "startGame" })} />
       </main>
     );
   if (state.gameMode === "active")
